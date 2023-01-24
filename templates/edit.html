@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="shadow-lg p-1 card form-Add-Task">
+    <div class="card-body ">
+        <form method="post" class=" shadow p-3 form-Add-Task text-light">
+
+            {% csrf_token %}
+            {{ form.as_p}}
+            <div class="form-group p-3">
+          <input type="submit">
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+{% endblock content %}
+

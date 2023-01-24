@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!--<div class="dropdown-menu p-4 text-muted" style="max-width: 200px;">-->
+<section>
+    <div class="container shadow-lg p-5 mb-7 bg-secondary">
+        <div class="row ">
+            <form method="post" enctype="multipart/form-data"class="row gy-2 gx-3 shadow p-3 bg-body rounded">
+                {% csrf_token %}
+                <div class=" p-5 bg-secondary text-white">
+                <div class="mb-3 ">
+                    <input type="text" name="name" placeholder="Name of task">
+                </div>
+                <div class="mb-3">
+                    <input type="number" name="priority" placeholder="You'r priority">
+                </div>
+                <div class="mb-3">
+                    <input type="submit" class="btn btn-primary">
+                </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container shadow-lg p-5 mb-7 bg-secondary">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            {% for i in obj1 %}
+            <div class="col">
+                <div class="card">
+                     <div class="card-body">
+                          <h1>TASK ID:-{{i.id}}</h1>
+                            <h5 class="card-title">TASK NAME:-{{ i.name}}</h5>
+                            <p class="card-text">
+                                {{ i.priority}}
+                            </p>
+                     </div>
+                </div>
+            </div>6
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
