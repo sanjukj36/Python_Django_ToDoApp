@@ -15,5 +15,13 @@ You can fill in the details for the task name, priority, and date, and it will a
 You can use the update button in the task remaining to change any details, such as the due date.
 It will take you to an update page where you can make changes.
 ![2023-01-25 (29)](https://user-images.githubusercontent.com/85171419/214535750-75a73fb3-fc7b-4709-987d-6c4e3a19019d.png)
-I changed the date here to January 25, and submitting it takes me to the home page. 
+I changed the date here to January 25, and submitting it takes me to the updated home page.
 ![2023-01-25 (32)](https://user-images.githubusercontent.com/85171419/214536695-005280ea-1867-4845-8cd5-896bab5c24cf.png)
+
+# Delete page
+You can use the delete button in the task list to delete the task.
+![2023-01-25 (32)](https://user-images.githubusercontent.com/85171419/214536695-005280ea-1867-4845-8cd5-896bab5c24cf.png)
+When you click on "delete," you will be taken to the delete page. as reference it aske you to "Are you certain the task has been completed?"
+![2023-01-25 (35)](https://user-images.githubusercontent.com/85171419/214540697-80012d8c-00ca-4d3b-ba02-c9a5a1e58a9a.png)
+If you want, there will be a conform button. Click it and it will lead to the updated home page.
+![2023-01-25 (37)](https://user-images.githubusercontent.com/85171419/214541019-1224bf5b-442f-4c3c-ae82-bc14c012c3f0.png)
